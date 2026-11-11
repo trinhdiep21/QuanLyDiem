@@ -13,7 +13,7 @@ public class DatabaseConnection {
 
     public static Connection getConnection() {
         try {
-            DriverManager.getConnection("jdbc:mysql://localhost:3306/QLSV", "root", "");
+            DriverManager.getConnection("jdbc:mysql://localhost:3306/quanlydiem", "root", "");
         } catch (SQLException ex) {
             Logger.getLogger(DatabaseConnection.class.getName()).log(Level.SEVERE, null, ex);
         }
